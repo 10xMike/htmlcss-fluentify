@@ -2,8 +2,6 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    text-decoration: none;
-    list-style: none;
 }
 
 .clearfix::after{
@@ -33,7 +31,8 @@ nav{
 }
 
 .logo{
-    padding-top: 20px;
+    padding-top: 10px;
+    padding-right: 50px;
 }
 
 #site_header{
@@ -43,8 +42,8 @@ nav{
     text-decoration: none;
     list-style: none;
     font-size: 18px;
-    padding: 5px 10px;
-    text-transform: uppercase;
+    /* padding: 5px 10px; */
+    /* text-transform: uppercase; */
     color: white;
 }
 .navbar{
@@ -59,11 +58,50 @@ nav{
 
 .menu_left{
     width: 50%;
+    padding-right: 5px 10px;
 }
 li{
     display: inline-block;
     list-style: none;
+    padding-right: 40px;
 }
 
+.menu_right{
+    text-align: right;
+    width: 37.5%;
+}
 
+.btn{
+    padding: 10px 30px;
+}
 
+.btn_outline{
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.btn_solid{
+    border: 1px solid #7CBB02;
+    background-color: #7CBB02;
+    border-radius: 10px;
+}
+
+.container{
+    width: 35%;
+    margin: 10%;
+}
+
+h1{
+    display: inline-block;
+    font-size: 70px;
+}
+
+.btn_contained{
+    border: 1px solid #7CBB02;
+    background-color: #7CBB02;
+    width: 33%;
+    margin-top: 1rem;
+    border-radius: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
