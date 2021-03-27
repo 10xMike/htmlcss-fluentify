@@ -160,3 +160,27 @@ h3{
     margin: 1.5rem;
     height: 1px;
 }
+
+.col2{
+    width: 50%;
+    text-align: justify;
+    float: left;
+    margin: auto;
+    padding-left: 50px;
+}
+
+.climb{
+    background-image: url('./img/mountain.svg');
+    background-repeat: no-repeat;
+    height: 800px;
+    margin-top: 50px;
+}
+
+.mountain_text h1{
+    display: inline-block;
+    text-align: left;
+    font-size: 80px;
+    font-weight: 600;
+    margin-top: 30%;
+}
+
